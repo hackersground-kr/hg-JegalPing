@@ -3,8 +3,8 @@ import appLogo from "../../../assets/img/head/Logo.svg";
 import { Link } from "react-router-dom";
 
 const LogoImg = styled.img`
-  width: 161px;
-  height: 165px;
+  width: auto;
+  height: 100%;
 `;
 
 const HomeLink = styled(Link)`
