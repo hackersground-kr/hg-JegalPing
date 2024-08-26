@@ -1,11 +1,11 @@
 import React, { useState } from "react";
-import CONFIG from "../../../../config/config.json";
-import { MobileView } from "../../../common/MobileView/MobileView";
 import * as S from "./style";
 import axios from "axios";
-import { setCookie } from "../../../../utils/Cookie";
+import { setCookie } from "../../../utils/Cookie";
 import { useNavigate } from "react-router-dom";
-import { Button } from "../../../common/Button/Button";
+import CONFIG from "../../../config/config.json";
+import { MobileView } from "../../common/MobileView/MobileView";
+import { Button } from "../../common/Button/Button";
 
 
 const SignUp = () => {

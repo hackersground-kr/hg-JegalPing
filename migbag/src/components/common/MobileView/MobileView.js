@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const MobileView = styled.div`
+export const MobileView = styled.div`
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -12,5 +12,3 @@ const MobileView = styled.div`
     align-items: center;
 `;
 
-
-export default MobileView;
