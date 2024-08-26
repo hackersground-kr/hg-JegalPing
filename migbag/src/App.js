@@ -7,14 +7,17 @@ import LoaderPage from "./pages/LoaderPage";
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/loader" component={<LoaderPage /> } />
-        <Route path="/signup" component={<SignUpPage />} />
-        <Route path="/signIn" component={<SignInPage />} />
-        <Route path="/" component={<MainPage />} />
-      </Routes>
-    </BrowserRouter>
+    // <BrowserRouter>
+    //   <Routes>
+    //     <Route path="/loader" component={<LoaderPage /> } />
+    //     <Route path="/signup" component={<SignUpPage />} />
+    //     <Route path="/signIn" component={<SignInPage />} />
+    //     <Route path="/" component={<MainPage />} />
+    //   </Routes>
+    // </BrowserRouter>
+      <>
+          <h1>hi</h1>
+      </>
   );
 }
 
