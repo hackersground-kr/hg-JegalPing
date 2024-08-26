@@ -1,9 +1,81 @@
-h2 {
-  text-align: center;
+// 변수 정의
+$primary-color: #FF8A36;
+$border-color: #e0e0e0;
+$input-bg-color: #ffffff;
+$text-color: #333;
 
-  .box {
-    inline-size: none;
+// 믹스인 정의
+@mixin input-style {
+  width: 100%;
+  padding: 15px 0;
+  border: none;
+  border-bottom: 1px solid $border-color;
+  background-color: $input-bg-color;
+  font-size: 16px;
+  &::placeholder {
+    color: #999;
   }
 }
 
+// 전체 컨테이너
+.mobile-login-container {
+  width: 100%;
+  max-width: 100%;
+  padding: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+  h1 {
+    font-size: 24px;
+    margin-bottom: 30px;
+    font-weight: bold;
+  }
+
+  .input-group {
+    margin-bottom: 20px;
+
+    input {
+      @include input-style;
+    }
+  }
+
+  .login-button {
+    width: 100%;
+    padding: 15px;
+    background-color: $primary-color;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+
+  .back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 24px;
+    color: $text-color;
+    text-decoration: none;
+  }
+}
+
+// 미디어 쿼리 추가
+@media screen and (max-width: 480px) {
+  .mobile-login-container {
+    padding: 15px;
+
+    h1 {
+      font-size: 22px;
+    }
+
+    .input-group input {
+      font-size: 14px;
+    }
+
+    .login-button {
+      font-size: 16px;
+    }
+  }
+}
 /*# sourceMappingURL=style.scss.map */
