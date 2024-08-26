@@ -9,10 +9,10 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" component={<MainPage />} />
-        <Route path="/loader" component={<LoaderPage /> } />
-        <Route path="/signUp" component={<SignUpPage />} />
-        <Route path="/signIn" component={<SignInPage />} />
+        <Route path="/" element={<MainPage />} />
+        <Route path="/loader" element={<LoaderPage /> } />
+        <Route path="/signUp" element={<SignUpPage />} />
+        <Route path="/signIn" element={<SignInPage />} />
       </Routes>
     </BrowserRouter>
   );
