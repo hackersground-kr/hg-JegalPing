@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/644da342-1433-47ab-8e26-9e2a27b44793)# `JegalPing` - `미그박(MigBag)`
+##JegalPing - 미그박(MigBak)##
 
 해커그라운드 해커톤에 참여하는 `JegalPing` 팀의 `미그박(MigBag)`입니다.
 
@@ -37,7 +37,7 @@ vsc또는 react를 구동할수 있는 IDE 필요 // 선택사항
 
 https://portal.azure.com/#home 에 접속한다.
 
-
+<img width="1132" alt="스크린샷 2024-08-26 오후 8 50 21" src="https://github.com/user-attachments/assets/bceef684-295f-49bb-81b4-44e7acc9551c">
 리소스 만들기를 클릭 한다.
 Web app 만들기를 클릭 한다.
 
