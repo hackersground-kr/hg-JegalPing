@@ -1,6 +1,6 @@
-# `제갈핑` - `미그박(MigBak)`
+![image](https://github.com/user-attachments/assets/644da342-1433-47ab-8e26-9e2a27b44793)# `JegalPing` - `미그박(MigBag)`
 
-해커그라운드 해커톤에 참여하는 `제갈핑` 팀의 `미그박(MigBak)`입니다.
+해커그라운드 해커톤에 참여하는 `JegalPing` 팀의 `미그박(MigBag)`입니다.
 
 ## 참고 문서
 
@@ -35,33 +35,36 @@ vsc또는 react를 구동할수 있는 IDE 필요 // 선택사항
 
 ## 시작하기
 
-https://portal.azure.com/#home 에 접속한다.
+https://portal.azure.com/#home 에 접속한다.
+
 
 리소스 만들기를 클릭 한다.
+Web app 만들기를 클릭 한다.
 
-Web app을 클릭 한다.
+게시 : 정적 웹 앱
 
-Static Web app을 클릭 후 만들기를 클릭한다.
+‘만들기’를 클릭한다
 
-웹앱 이름을 정하고 리소스를 rg-jegalping 리소스로 설정한다.
+저장하지 않은 편집 내용은 삭제됩니다.라는 안내가 뜨면 확인을 누른다
 
-스탠다드 선택 후 Deployment details를 Github으로 설정 후 깃허브 계정에 로그인한다.
+구독 : Hackers Ground
 
-Organization을 hackerground-kr로 설정한다.
+리소스 그룹 : rg-JegalPing
 
-레파지토리를 hg-jegalping으로 설정한다.
+이름 : 상관없음.
 
-branch는 web으로 한다.
+계획 유형 : 표준
 
-자동으로 생성되는 항목을 확인하고 Review + create를 누른다.
+원본 : GitHub
 
+GitHub로 로그인한다.
 
+organization(조직) : hackerground-kr
 
+repository(리포지토리) : hg-JegalPing
 
+branch(분기) : web
 
-
-
-
-
+‘검토 및 만들기’를 선택한다
 
 > **여러분의 제품/서비스를 Microsoft 애저 클라우드에 배포하기 위한 절차를 구체적으로 나열해 주세요.**
