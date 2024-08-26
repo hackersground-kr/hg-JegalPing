@@ -7,6 +7,7 @@ import { setCookie } from "../../../../utils/Cookie";
 import { useNavigate } from "react-router-dom";
 import { Button } from "../../../common/Button/Button";
 
+
 const SignUp = () => {
   const navigate = useNavigate();
 
@@ -51,6 +52,7 @@ const SignUp = () => {
 
   return (
     <MobileView>
+
       <Button onClick={Server}>다음</Button>
     </MobileView>
   );
