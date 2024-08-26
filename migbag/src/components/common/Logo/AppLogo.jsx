@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import appLogo from "../../../assets/img/head/Logo.svg";
+import appLogo from "../../../assets/img/Logo.svg";
 import { Link } from "react-router-dom";
 
 const LogoImg = styled.img`

@@ -8,7 +8,11 @@ const Main = () => {
   return (
     <MobileView>
       <AppLogo />
-      <S.Slide></S.Slide>
+      <S.Slide>
+        <S.SlideImg />
+        <S.SlideText>의성마늘햄</S.SlideText>
+        <S.SlideText>의성시와 계약해...</S.SlideText>
+      </S.Slide>
       <S.ChallengeLayout>
         <S.ChallengeBox>
             

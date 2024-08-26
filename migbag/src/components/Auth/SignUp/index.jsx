@@ -13,7 +13,7 @@ const SignUp = () => {
 
   const [id, setId] = useState("");
   const [pw, setPw] = useState("");
-  const [pwRecheck, setPwRecheck] = useState(false);
+  const [pwRecheck, setPwRecheck] = useState("");
   const [tel, setTel] = useState(0);
 
   const signUp = async () => {
@@ -32,7 +32,7 @@ const SignUp = () => {
       return;
     }
     if (pw !== pwRecheck) {
-      return <div>비밀번호가 달라요</div>;
+      return;
     }
 
     signUp()
@@ -52,7 +52,7 @@ const SignUp = () => {
 
   return (
     <MobileView>
-
+      
       <Button onClick={Server}>다음</Button>
     </MobileView>
   );
