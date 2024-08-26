@@ -8,6 +8,12 @@ const Main = () => {
   return (
     <MobileView>
       <AppLogo />
+      <S.Slide></S.Slide>
+      <S.ChallengeLayout>
+        <S.ChallengeBox>
+            
+        </S.ChallengeBox>
+      </S.ChallengeLayout>
     </MobileView>
   );
 };
