@@ -23,3 +23,20 @@
     src: local("Pretendard-ExtraBold"), url(../fonts/Pretendard-ExtraBold.woff2) format('woff2');
     font-weight: 800
 }
+
+footer {
+    display: flex; /* Flexbox 사용 */
+    justify-content: space-between; /* 요소들 사이에 공간을 균등하게 배분 */
+    align-items: center; /* 세로 중앙 정렬 */
+    width: 100vw;
+    height: 100px;
+    z-index: 99;
+    background-color: white;
+    border-top: .5px solid #DEDEDE ;
+}
+footer img {
+    width: 36px;
+    height: 36px;
+}
+
+a {text-decoration-line: none;}
