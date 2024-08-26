@@ -1,4 +1,4 @@
-## JegalPing - 미그박(MigBak)##
+## JegalPing - 미그박(MigBak)
 
 해커그라운드 해커톤에 참여하는 `JegalPing` 팀의 `미그박(MigBag)`입니다.
 
