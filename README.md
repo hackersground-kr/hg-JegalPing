@@ -35,7 +35,7 @@ vsc또는 react를 구동할수 있는 IDE 필요 // 선택사항
 
 ## 시작하기
 
-https://portal.azure.com/#home에 접속한다.
+https://portal.azure.com/#home 에 접속한다.
 
 리소스 만들기를 클릭 한다.
 
