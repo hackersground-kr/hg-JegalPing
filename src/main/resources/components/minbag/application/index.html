@@ -37,16 +37,14 @@
                     <span><img style="width: 20px; height:20px" src="../../../assets/img/map.svg" alt=""></span>
                     <span>경북 의성군 빙계 얼음골 야영장 18번</span>
                 </div>
-                <div style="margin-top: 10px;" class="date_money">
+                <div class="date_money">
                     <div>
-                        <div><span><img style="width:20px; height:20px;" src="../../../assets/img/calender.svg"
-                                    alt=""></span></div>
+                        <div><span><img style="width:20px; height:20px;" src="../../../assets/img/calender.svg"alt=""></span></div>
                         <div><span style="margin-left: 5px;">8/25 ~ 9/13</span></div>
                     </div>
                     <span style="color: #676767;">|</span>
                     <div>
-                        <div><span><img style="width:20px; height:20px;" src="../../../assets/img/money.svg"
-                                    alt=""></span></div>
+                        <div><span><img style="width:20px; height:20px;" src="../../../assets/img/money.svg" alt=""></span></div>
                         <div><span style="margin-left: 5px;">120,000 원</span></div>
                     </div>
                 </div>
@@ -63,9 +61,19 @@
                 <p>와이파이도 된답니당~~</p>
             </div>
             <span style="margin-top: 10px; border-bottom: 0.5px solid #676767; width:100%;"></span>
-            <button style="margin-top: 30px" class="RestrationButton">민박 신청하기</button>
+            <button id="registerButton" style="margin-top: 30px" class="RestrationButton">민박 신청하기</button>
         </div>
     </div>
+
+    <!-- Modal Structure -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>민박 신청이 완료되었습니다!</p>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
 </body>
 
 </html>
